@@ -15,7 +15,7 @@ Igual en el caso sin orden ambos O(n) búsqueda lineal. Si el array estuviera or
 Insertar al inicio en una lista enlazada es O(1): solo se cambia el puntero head. En un array, insertar al inicio requiere desplazar todos los elementos existentes hacia la derecha  O(n) por cada inserción, lo que resulta en O(n²) para 500 inserciones. Conclusión: Lista Enlazada es claramente más eficiente aquí.
 
 3. Acceder directamente al 3er estudiante de la lista
-Más eficiente: ARRAY. Los arrays permiten acceso aleatorio en O(1) mediante índice (array[2]). En una lista enlazada, para llegar al 3er nodo hay que recorrer desde head: O(n)
-en el caso general, o O(k) donde k es la posición buscada. Conclusión: Array es más eficiente para acceso por posición.
+Los arrays permiten acceso aleatorio en O(1) mediante índice (array[2]). En una lista enlazada, para llegar al 3er nodo hay que recorrer desde head: O(n)
+en O(k) donde k es la posición buscada. Array es más eficiente para acceso por posición.
 
 
